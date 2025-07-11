@@ -46,4 +46,8 @@ public class Product {
     public void setProductPrice(double productPrice) {
         this.productPrice = productPrice;
     }
+
+    public void ProductSave( String productname){
+        this.productName=productService;
+    }
 }
